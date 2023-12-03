@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    background-image: url('https://media.istockphoto.com/photos/big-white-question-mark-on-a-yellow-background-3d-rendering-picture-id1166678206?k=20&m=1166678206&s=612x612&w=0&h=35swXFFtLZ-MTj6dPalgpfPba3aXFJgzDKsDFvGXrUo=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+#root{
+width: 400px;
+  height: 500px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  padding: 25px;
+  border-radius: 2.5% ;
+  border: 1px solid black
+}

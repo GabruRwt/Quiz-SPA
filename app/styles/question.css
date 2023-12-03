@@ -1,0 +1,122 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+span>p{
+    margin: 0;
+}
+.timer_sec{
+    text-align: center;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 10%;
+    padding: 5px;
+    display: inline-block;
+    margin: top 0px;
+
+}
+.optionList .option{
+    background: #050606;
+    border: 1px solid #050606;
+    color: #fff;
+    border-radius: 25px;
+    padding: 8px 15px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.optionList .option:hover{
+    color: #fff;
+    background: rgb(154, 206, 64);
+    border: 1px solid #b8daff;
+}
+.optionList .option.correct{
+    color: black;
+    background: #ffa500;
+    border: 1px solid #c3e6cb;
+}
+.optionList .option.incorrect{
+    color: #f5f3f3;
+    background: #c61826;
+    border: 1px solid #f5c6cb;
+}
+.optionList .option.disabled{
+    pointer-events: none;
+}
+
+.result_box{
+    display: none;
+}
+#quiz_question{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    border: 5px solid orange;
+    text-align: center;
+    padding:10px;
+}
+#totalquestion{
+    color: grey;
+    font-weight: lighter;
+}
+.nextBtn{
+    padding: 10px 20px;
+    margin-left: 175px;
+    margin-top: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    border: 2px solid #15c3c9;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff7b00;
+    font-weight: 600;
+}
+.complete_text{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+#score_text{
+    padding-top: 15px;
+    text-align: center;
+    font-size: large;
+    padding-left: 40px;
+}
+.restart{
+    padding: 10px 20px;
+    margin-left: 125px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background: none;
+    border: 2px solid #15c3c9;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff7b00;
+    font-weight: 600;
+}
+img.nice_try{
+    width: 200px;
+    padding-left: 80px;
+
+}
